@@ -13,13 +13,13 @@ class SmartWrap extends StatelessWidget {
   final double? spacing;
   final double? runSpacing;
   final WrapAlignment? wrapAlignment;
-  
+
   const SmartWrap({
-    super.key, 
-    required this.type, 
-    required this.children, 
-    this.mainAxisAlignment, 
-    this.crossAxisAlignment, 
+    super.key,
+    required this.type,
+    required this.children,
+    this.mainAxisAlignment,
+    this.crossAxisAlignment,
     this.mainAxisSize,
     this.textDirection,
     this.verticalDirection,
@@ -42,7 +42,8 @@ class SmartWrap extends StatelessWidget {
         : type == WrapType.column
             ? Column(
                 mainAxisAlignment: mainAxisAlignment ?? MainAxisAlignment.start,
-                crossAxisAlignment: crossAxisAlignment ?? CrossAxisAlignment.start,
+                crossAxisAlignment:
+                    crossAxisAlignment ?? CrossAxisAlignment.start,
                 mainAxisSize: mainAxisSize ?? MainAxisSize.max,
                 textDirection: textDirection,
                 verticalDirection: verticalDirection ?? VerticalDirection.down,
