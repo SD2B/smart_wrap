@@ -1,16 +1,20 @@
 
-# SmartWrap
+# 📦 SmartWrap - Flexible Layout Widget
 
-**SmartWrap** is a flexible widget that allows you to create layouts using Row, Column, or Wrap, with configurable properties such as alignment, spacing, and axis direction.
+**SmartWrap** is a versatile Flutter widget that lets you create dynamic layouts using **Row**, **Column**, or **Wrap**, with customizable alignment, spacing, and layout properties.
 
-## Features
+## 🚀 Features
 
-- **Row**, **Column**, and **Wrap** layout options.
-- Customize **MainAxisAlignment**, **CrossAxisAlignment**, and **MainAxisSize**.
-- Control the **TextDirection** and **VerticalDirection** for Row and Column.
-- Specify **spacing** and **runSpacing** for Wrap.
+- **Row**, **Column**, and **Wrap** layout options in one widget!
+- Customize:
+  - **MainAxisAlignment**
+  - **CrossAxisAlignment**
+  - **MainAxisSize**
+- Control:
+  - **TextDirection** and **VerticalDirection** for Row and Column.
+  - **spacing** and **runSpacing** for Wrap.
 
-## Installation
+## 📥 Installation
 
 Add this to your `pubspec.yaml`:
 
@@ -19,15 +23,15 @@ dependencies:
   smart_wrap: ^0.0.1
 ```
 
-Run the following command:
+Then, run:
 
 ```bash
 flutter pub get
 ```
 
-## Usage
+## 💡 Usage
 
-Here’s an example of how to use **SmartWrap**:
+Here’s how to use **SmartWrap** in your Flutter app:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -65,20 +69,22 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-### Available Parameters:
+## 📊 Available Parameters:
 
-- **`type`**: Choose between `WrapType.row`, `WrapType.column`, or `WrapType.wrap`.
-- **`children`**: List of child widgets to display.
-- **`mainAxisAlignment`**: How the children should be placed along the main axis (for Row and Column).
-- **`crossAxisAlignment`**: How the children should be placed along the cross axis (for Row and Column).
-- **`mainAxisSize`**: The size of the main axis (for Row and Column).
-- **`textDirection`**: Text alignment in horizontal direction (for Row and Column).
-- **`verticalDirection`**: Controls the vertical direction (for Row and Column).
-- **`spacing`**: Horizontal spacing between children in Wrap.
-- **`runSpacing`**: Vertical spacing between lines in Wrap.
-- **`wrapAlignment`**: Alignment for the Wrap widget.
+| Parameter               | Description                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------|
+| `type`                  | Choose between `WrapType.row`, `WrapType.column`, or `WrapType.wrap`.                         |
+| `children`              | List of child widgets to display.                                                             |
+| `mainAxisAlignment`      | Align children along the main axis (for Row and Column).                                      |
+| `crossAxisAlignment`    | Align children along the cross axis (for Row and Column).                                      |
+| `mainAxisSize`          | The size of the main axis (for Row and Column).                                                |
+| `textDirection`         | Text alignment in horizontal direction (for Row and Column).                                   |
+| `verticalDirection`     | Controls the vertical direction (for Row and Column).                                          |
+| `spacing`               | Horizontal spacing between children in Wrap.                                                  |
+| `runSpacing`            | Vertical spacing between lines in Wrap.                                                       |
+| `wrapAlignment`         | Alignment for the Wrap widget.                                                                |
 
-## Example
+## 🧪 Example
 
 ### 1. Wrap Example:
 
@@ -122,3 +128,26 @@ SmartWrap(
   ],
 )
 ```
+
+## ✨ Conclusion
+
+SmartWrap is designed to simplify layout management in Flutter, giving you the power to switch between Row, Column, and Wrap with ease, while offering full control over alignment and spacing!
+
+Contributions and feedback are welcome!
+
+---
+
+
+## Author
+
+Developed with ❤️ by [Sanoop Das](https://codelife.in). Connect with me on [LinkedIn](https://www.linkedin.com/in/sd2b/).
+
+---
+
+## Support
+
+If you like this package, please give it a ⭐ on [pub.dev](https://pub.dev/packages/smart_wrap) and share it with the Flutter community!
+
+---
+
+Happy Coding!
