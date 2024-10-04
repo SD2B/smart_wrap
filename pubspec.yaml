@@ -1,7 +1,7 @@
 name: smart_wrap
 description: A flexible widget that allows creating rows, columns, and wrap layouts with configurable properties.
 version: 0.0.1
-homepage:
+homepage: https://github.com/SD2B/smart_wrap.git
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
