@@ -20,7 +20,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smart_wrap: ^0.0.1
+  smart_wrap: ^0.0.8
 ```
 
 Then, run:

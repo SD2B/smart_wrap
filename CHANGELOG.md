@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.0.8] - 2025-01-05
+- Added spacing to Row and Column.
+
 ## [0.0.7] - 2024-11-10
 - Added SmartExpand.
 
