@@ -36,6 +36,7 @@ class SmartWrap extends StatelessWidget {
     this.spacing,
     this.runSpacing,
     this.wrapAlignment,
+    this.textBaseline,
   });
 
   /// The layout type for the [SmartWrap] widget.
@@ -67,6 +68,9 @@ class SmartWrap extends StatelessWidget {
 
   /// The alignment of the children within the wrap.
   final WrapAlignment? wrapAlignment;
+  
+  /// A horizontal line used for aligning text.
+  final TextBaseline? textBaseline;
 
   @override
   Widget build(BuildContext context) {
@@ -77,16 +81,19 @@ class SmartWrap extends StatelessWidget {
             mainAxisSize: mainAxisSize ?? MainAxisSize.max,
             textDirection: textDirection,
             verticalDirection: verticalDirection ?? VerticalDirection.down,
+            textBaseline: textBaseline,
+            spacing: spacing ?? 0.0,
             children: children,
           )
         : type == WrapType.column
             ? Column(
                 mainAxisAlignment: mainAxisAlignment ?? MainAxisAlignment.start,
-                crossAxisAlignment:
-                    crossAxisAlignment ?? CrossAxisAlignment.start,
+                crossAxisAlignment: crossAxisAlignment ?? CrossAxisAlignment.start,
                 mainAxisSize: mainAxisSize ?? MainAxisSize.max,
                 textDirection: textDirection,
                 verticalDirection: verticalDirection ?? VerticalDirection.down,
+                textBaseline: textBaseline,
+                spacing: spacing ?? 0.0,
                 children: children,
               )
             : Wrap(

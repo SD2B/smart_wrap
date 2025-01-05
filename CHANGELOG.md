@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.0.7] - 2024-11-10
+- Added SmartExpand.
+
 ## [0.0.6] - 2024-10-04
 - Provided more detailed documentation.
 
